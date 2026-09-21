@@ -1,4 +1,6 @@
-function setScore(){ return score = 100; }
+function setScore(){let score = 100;
+    return score
+ }
 
 console.log(setScore())
-// it needs return to bring the score variable to the console.log()
+// The score variable needs let to be declared, and the function needs return to bring the value to console.log
