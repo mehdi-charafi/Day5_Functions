@@ -1,7 +1,7 @@
-let n = 1;
+let n = 0;
 
 let counter = () => {
-    return  n++;
+    return  ++n;
 }
 
 
@@ -14,3 +14,4 @@ console.log(counter(n))
 }
 
 makeCounter()
+
